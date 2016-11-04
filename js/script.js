@@ -4,6 +4,7 @@ $(function () {
         var user = [{
 
         name: "Чаговская Татьяна Александровна",
+        photo: "img/me.jpg",
         works: "Lorem ipsum dolor sit amet",
         phone: "+380508283500",
         facebook: "www.facebook.com/chagovskayatatiana",
@@ -15,6 +16,6 @@ $(function () {
         content3: "Software development"
     }];
 
-    var content = tmpl(html, { data: user});
+    var content = tmpl(html, { data: user });
     $('body').append(content);
 });
